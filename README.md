@@ -76,7 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     according to your firebase account details.
     
     
-### DataSet to train your firebase 
+### DataSet to train your Ml Model 
     "synthetic_vital_signs_dataset.csv"
 
 ### Replace .env.example copy with .env
