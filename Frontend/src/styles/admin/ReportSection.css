@@ -1,0 +1,71 @@
+/* ========== Report Section ========== */
+.report-section {
+    background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    border-left: 5px solid rgba(57, 170, 224, 0.7);
+  }
+  
+  .report-section:hover {
+    transform: scale(1.01);
+  }
+  
+  /* ========== Report Form ========== */
+  .report-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .report-form input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid rgba(57, 170, 224, 0.4);
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .report-form input:focus {
+    border-color: rgba(47, 158, 19, 0.7);
+    box-shadow: 0 0 0 2px rgba(47, 158, 19, 0.2);
+  }
+  
+  /* ========== Submit Button ========== */
+  .report-form button {
+    background: rgba(47, 158, 19, 0.7); /* Green */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .report-form button:hover {
+    background: rgba(47, 158, 19, 0.9);
+  }
+  
+  /* ========== Report List ========== */
+  .report-list .report-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+  }
+  
+  /* ========== Download Link ========== */
+  .download-link {
+    color: rgba(57, 170, 224, 0.9); /* Blue */
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .download-link:hover {
+    color: rgba(57, 170, 224, 1);
+  }
+  

@@ -1,0 +1,55 @@
+.appointments-table-container {
+    margin-top: 20px;
+    background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid rgba(57, 170, 224, 0.7);
+  }
+  
+  .appointments-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  .appointments-table th,
+  .appointments-table td {
+    padding: 12px;
+    border: 1px solid rgba(57, 170, 224, 0.3);
+  }
+  
+  .appointments-table th {
+    background-color: rgba(57, 170, 224, 0.7);
+    color: white;
+  }
+  
+  .appointments-table tbody tr:hover {
+    background-color: rgba(57, 170, 224, 0.1);
+  }
+  
+  .cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: darkred;
+  }
+  
+  .undo-button {
+    background-color: rgba(47, 158, 19, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

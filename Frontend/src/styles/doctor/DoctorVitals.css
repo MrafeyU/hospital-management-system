@@ -1,0 +1,26 @@
+.patient-vital-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 16px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  }
+  
+  .vitals-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .vitals-table th,
+  .vitals-table td {
+    border: 1px solid rgba(57, 170, 224, 0.3);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .vitals-table th {
+    background-color: rgba(57, 170, 224, 0.7);
+    color: white;
+  }
+  

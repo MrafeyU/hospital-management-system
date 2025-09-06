@@ -1,0 +1,58 @@
+.dashboard-card {
+    background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    padding: 24px 32px;
+    margin-bottom: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dashboard-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  .dashboard-card h3 {
+    font-size: 1.8rem;
+    color: rgba(47, 158, 19, 0.8);
+    margin-bottom: 20px;
+  }
+  
+  .info-table td {
+    padding: 10px;
+  }
+  
+  .edit-button, .save-button, .cancel-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .edit-button {
+    background-color: rgba(57, 170, 224, 0.7);
+    color: white;
+  }
+  
+  .save-button {
+    background-color: rgba(47, 158, 19, 0.7);
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .cancel-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .edit-form input {
+    display: block;
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(57, 170, 224, 0.4);
+    border-radius: 8px;
+  }
+  

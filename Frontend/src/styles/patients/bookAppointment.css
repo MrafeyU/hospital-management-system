@@ -1,0 +1,65 @@
+/* styles/BookAppointment.css */
+
+.book-appointment-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .book-appointment-box {
+    background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    border-left: 5px solid rgba(57, 170, 224, 0.7);
+    transition: transform 0.3s ease;
+  }
+  
+  .book-appointment-box:hover {
+    transform: scale(1.01);
+  }
+  
+  .book-appointment-box h2 {
+    margin-bottom: 20px;
+    color: rgba(47, 158, 19, 0.7);
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .appointment-input {
+    padding: 12px;
+    border: 1px solid rgba(57, 170, 224, 0.4);
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s, box-shadow 0.3s;
+  }
+  
+  .appointment-input:focus {
+    border-color: rgba(47, 158, 19, 0.7);
+    box-shadow: 0 0 0 2px rgba(47, 158, 19, 0.2);
+    outline: none;
+  }
+  
+  .appointment-button {
+    background-color: rgba(47, 158, 19, 0.7);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .appointment-button:hover {
+    background-color: rgba(47, 158, 19, 0.9);
+  }
+  

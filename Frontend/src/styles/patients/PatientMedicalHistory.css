@@ -1,0 +1,103 @@
+/* Container Card */
+.history-card {
+    background: linear-gradient(to right, white, rgba(57, 170, 224, 0.05));
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid rgba(47, 158, 19, 0.7);
+    padding: 24px 32px;
+    margin: 30px auto;
+  }
+  
+  /* Title */
+  .history-card h2 {
+    text-align: center;
+    color: rgba(47, 158, 19, 0.8);
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  
+  /* Upload Form */
+  .history-upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .history-upload-form input[type="file"],
+  .history-upload-form input[type="text"] {
+    padding: 14px;
+    border: 1px solid rgba(57, 170, 224, 0.4);
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .history-upload-form input[type="text"]:focus,
+  .history-upload-form input[type="file"]:focus {
+    outline: none;
+    border-color: rgba(47, 158, 19, 0.7);
+    box-shadow: 0 0 0 2px rgba(47, 158, 19, 0.1);
+  }
+  
+  .history-upload-form button {
+    background-color: rgba(47, 158, 19, 0.8);
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-upload-form button:hover {
+    background-color: rgba(47, 158, 19, 0.95);
+  }
+  
+  /* Records Section */
+  .history-list {
+    background-color: rgba(57, 170, 224, 0.05);
+    border-left: 4px solid rgba(57, 170, 224, 0.5);
+    padding: 20px 24px;
+    border-radius: 10px;
+  }
+  
+  .history-list h3 {
+    color: rgba(57, 170, 224, 0.9);
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+  
+  /* Individual Record */
+  .history-item {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  }
+  
+  .history-item p {
+    margin: 6px 0;
+    color: #333;
+  }
+  
+  .history-item a {
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  .preview-img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  

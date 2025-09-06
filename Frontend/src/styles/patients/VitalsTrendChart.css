@@ -1,0 +1,27 @@
+/* ========== Vitals Trend Chart Styling ========== */
+
+.dashboard-card {
+  background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(57, 170, 224, 0.9);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.recharts-wrapper {
+  margin-top: 20px;
+}

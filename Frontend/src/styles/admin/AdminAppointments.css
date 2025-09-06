@@ -1,0 +1,61 @@
+/* ========== Appointments Page Styling ========== */
+.appointments-container {
+    background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    border-left: 5px solid rgba(57, 170, 224, 0.7);
+  }
+  
+  .appointments-container:hover {
+    transform: scale(1.01);
+  }
+  
+  .appointments-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgba(47, 158, 19, 0.9); /* Darker green shade for headers */
+    text-align: center;
+  }
+  
+  /* ========== Table Styling ========== */
+  .appointments-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .appointments-table th,
+  .appointments-table td {
+    padding: 14px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Header Row */
+  .appointments-table th {
+    background: rgba(57, 170, 224, 0.7); /* Aqua blue */
+    color: white;
+    font-weight: 600;
+    
+  }
+  
+  /* Hover effect on table rows */
+  .appointments-table tbody tr:hover {
+    background-color: rgba(57, 170, 224, 0.1); /* Subtle hover */
+    cursor: pointer;
+  }
+  
+  /* Remove any sharp border edges */
+  .appointments-table tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+  }
+  .appointments-table tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+  }
+  

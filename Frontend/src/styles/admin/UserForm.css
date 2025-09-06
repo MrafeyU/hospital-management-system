@@ -1,0 +1,69 @@
+/* ========== Register User Form ========== */
+.user-form {
+  background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+  padding: 24px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  border-left: 5px solid rgba(57, 170, 224, 0.7);
+}
+
+.user-form:hover {
+  transform: scale(1.01);
+}
+
+.user-form h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: rgba(57, 170, 224, 0.9); /* Blue */
+}
+
+/* ========== Inputs & Select ========== */
+.user-form input,
+.user-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(57, 170, 224, 0.4); /* Light blue border */
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.user-form input:focus,
+.user-form select:focus {
+  border-color: rgba(47, 158, 19, 0.7);
+  box-shadow: 0 0 0 2px rgba(47, 158, 19, 0.2);
+  outline: none;
+}
+
+/* ========== Submit Button ========== */
+.user-form button {
+  background-color: rgba(47, 158, 19, 0.7); /* Green */
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-form button:hover {
+  background-color: rgba(47, 158, 19, 0.9);
+}
+
+/* ========== Feedback Messages ========== */
+.error {
+  color: red;
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+.success {
+  color: rgba(47, 158, 19, 0.9); /* Green */
+  margin-top: 12px;
+  font-weight: 500;
+}

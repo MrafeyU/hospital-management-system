@@ -1,0 +1,141 @@
+/* ============================================
+   User Management Container
+============================================ */
+.user-management-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 40px 20px; /* Adds spacing above and below the cards */
+}
+
+/* ============================================
+   Register User Form
+============================================ */
+.user-form {
+  background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+  padding: 24px;
+  margin-bottom: 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  border-left: 5px solid rgba(57, 170, 224, 0.7);
+  flex: 1 1 48%;
+  min-width: 320px;
+  max-width: 100%;
+}
+
+.user-form:hover {
+  transform: scale(1.01);
+}
+
+.user-form h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: rgba(57, 170, 224, 0.9);
+}
+
+.user-form input,
+.user-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(57, 170, 224, 0.4);
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.user-form input:focus,
+.user-form select:focus {
+  border-color: rgba(47, 158, 19, 0.7);
+  box-shadow: 0 0 0 2px rgba(47, 158, 19, 0.2);
+  outline: none;
+}
+
+.user-form button {
+  background-color: rgba(47, 158, 19, 0.7);
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-form button:hover {
+  background-color: rgba(47, 158, 19, 0.9);
+}
+
+.error {
+  color: red;
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+.success {
+  color: rgba(47, 158, 19, 0.9);
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+/* ============================================
+   User Table Styling
+============================================ */
+.user-table {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+  flex: 1 1 48%;
+  min-width: 320px;
+  max-width: 100%;
+  margin-bottom: 32px;
+}
+
+.user-table h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: rgba(57, 170, 224, 0.9);
+  text-align: center;
+}
+
+.user-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid rgba(57, 170, 224, 0.2);
+  padding: 12px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: rgba(57, 170, 224, 0.7);
+  color: white;
+}
+
+.user-table tbody tr:hover {
+  background-color: rgba(57, 170, 224, 0.1);
+}
+
+.remove-button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #b02a37;
+}

@@ -1,0 +1,53 @@
+.bills-card {
+    background: linear-gradient(to right, white, rgba(57, 170, 224, 0.1));
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 24px 32px;
+    margin: 30px auto;
+    border-left: 5px solid rgba(57, 170, 224, 0.7);
+  }
+  
+  .bills-card h2 {
+    text-align: center;
+    color: rgba(47, 158, 19, 0.9);
+    margin-bottom: 25px;
+  }
+  
+  .no-bills {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .bills-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  .bills-table thead {
+    background-color: rgba(57, 170, 224, 0.1);
+  }
+  
+  .bills-table th,
+  .bills-table td {
+    border: 1px solid rgba(57, 170, 224, 0.3);
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  .bills-table th {
+    font-weight: bold;
+    color: rgba(57, 170, 224, 0.9);
+  }
+  
+  .bills-table tr:nth-child(even) {
+    background-color: rgba(57, 170, 224, 0.05);
+  }
+  
+  .bills-table tr:hover {
+    background-color: rgba(47, 158, 19, 0.05);
+    transition: background-color 0.3s;
+  }
+  
